@@ -1,6 +1,6 @@
 ---
 title: "Assigment - Data Problems vs Data Solutions"
-author: name author here
+author: Minh Dung Pham
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_notebook:
