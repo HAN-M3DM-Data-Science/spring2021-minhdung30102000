@@ -1,6 +1,6 @@
 ---
 title: "Assigment - Data Driven Decision Making"
-author: Minh Dung Pham
+author: Minh Dung Phamg
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_notebook:
