@@ -3,25 +3,30 @@ title: "Assigment - Data Driven Decision Making"
 author: "Minh Dung Pham"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
+  html_notebook:
+    toc: yes
+    toc_depth: 2
   html_document:
     toc: yes
     toc_depth: '2'
     df_print: paged
-  html_notebook:
-    toc: yes
-    toc_depth: 2
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hfod8oY29g0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nMyuCdqzpZc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ## Why was data driven decision making (3DM) useful in this business case?
-
-
+Netflix is a streaming entertainment service company. Until 2017, Netflix has more than 100 million members with more than 125 million hours watched across 130 countries worldwide. Every day, they receive more than 700 billion events which equal 60+ petabyte data is delivered to their data warehouse every day. In the entertainment industry, it is really important to know what your customers want. Netflix needs to have a strategy to plan ahead and give customers what they want. Therefore, data-driven making is the key to their problem.
 
 ## How did the organization apply 3DM?
+Data flow
+Every activity of subscribers will be recorded as an event on Netflix. Those events will be transformed into raw data. The data will be delivered to Netflix's data storage. At this stage, Netflix uses big data processing technology to transform the raw data into data and reporting layer. Then there is a subset of the data will be delivered to the fast storage. Finally, Netflix uses data visualization and interactive query process to make reports from those data. Everyone at Netflix can access and use those reports.
 
+How data are used at Netflix?
+
+At the first layer, all the data will be transformed into reports and those who do it will be the data engineers, analytics engineers, and data viz engineers. Then we have the second layers who are business analysts, research scientists, quantitative analysts, data scientists, and ML scientists. they will try to find the meaning of the data through those reports. At the final layer, people who use the result to make a change to the company strategy and products, are executives, product managers, algorithm engineers, and software engineers.
 
 
 ## What can the organization do with 3DM that they couldn’t do before?
+With the help of 3DM Netflix now can always offer what their customers want. There 80% of what customers watch is based on Netflix suggestions. Moreover, It also helps the company create a better version. Netflix usually put some small changes in their app to collect data on how it will change customer activities. Form those they can always make sure their change will be suitable. Finally, since 2012 Netflix also plays a role as the producer and distributor for films and shows. They have created some special episodes in which viewers can choose the ending. That is a great way to collect data and find out  customers are expected from them in the future 
 
  
